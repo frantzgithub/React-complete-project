@@ -1,0 +1,38 @@
+.title {
+    color: var(--titleColor);
+    font-weight: 700;
+    line-height: 1.4;
+    
+    &.one {
+        font-size: 2.5rem;
+    }
+    &.two {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    &.three {
+        font-size: 1.75rem;
+    }
+}
+
+.paragraph {
+    color: var(--paragraphColor);
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 1rem;
+    
+    &.disable {
+        color: var(--disableText);
+        font-size: 0.875rem;
+    }
+    &.list {
+         padding:2rem 1.5rem;
+    }
+}
+
+.label {
+    color: var(--titleColor);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+}

@@ -1,0 +1,24 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-left: 2px solid;
+    padding: 0.5rem 2rem;
+    margin: 1rem 0;
+    div {
+        p {
+            padding: 0.5rem 0;
+        }
+    }
+    &.orange {
+        border-color: var(--backgroundButton);
+    }
+    &.black {
+        border-color: var(--titleColor);
+    }
+    @media (min-width: 760px ){
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

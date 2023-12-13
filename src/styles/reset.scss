@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+ul, ol{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+input, select {
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.235rem;
+    display: block;
+    
+    &:focus {
+      outline: none;
+    }
+}

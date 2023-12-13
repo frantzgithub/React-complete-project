@@ -1,0 +1,23 @@
+.btnStyle {
+    background: var(--backgroundButton);
+    color: var(--colorButton);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    
+    &:hover {
+        outline: 1px solid var(--backgroundButton);
+        background: transparent;
+        color: var(--backgroundButton);
+    }
+    
+    &.full {
+        width: 100%;
+        padding: 0.5rem 0;
+        margin-top: 1rem;
+    }
+    &.small {
+        padding: 0.5rem 0.75rem;
+    }
+}

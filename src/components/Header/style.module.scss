@@ -1,0 +1,15 @@
+.container {
+    width: 90%;
+    margin: 0.3rem auto;
+    height: 4rem;
+    box-shadow: 5px 5px 8px var(--disableText);
+    
+    img {
+        width: 150px;
+    }
+    
+    @media (min-width: 760px ){
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+}
